@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MVCBase.Domain.Entity;
+using MVCBase.DAL;
+using NHibernate;
 
 namespace MVCBase.Controllers
 {
@@ -11,9 +14,12 @@ namespace MVCBase.Controllers
         //
         // GET: /List/
 
-        public ActionResult News()
+        public ActionResult News(int? id)
         {
-            return View();
+            News dal = new News();
+            IList<Ba_News> model = dal.GetNews((int)id);
+
+            return View(model);
         }
 
     }

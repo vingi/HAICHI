@@ -1,5 +1,6 @@
 ﻿@{
     ViewBag.Title = "News";
+    @model IList<MVCBase.Domain.Entity.Ba_News>
 }
 <style>
     #indexmain {
@@ -59,15 +60,16 @@
 </style>
 <div id="indexmain" class="clearfix">
     <div id="listwrapper">
-        <div class="listitem clearfix"><div class="listimg"><table><tr><td><img src="/content/Base/Images/defaultimg.jpg" /></td></tr></table></div>
-            <div class="itemcontent">
-                <div class="itemtime">2012/10/15</div>
-                <div class="itemtitle">標題標題</div>
-                <div class="itemdescription">內容內容內容內容</div>
+        @foreach (var item in Model)
+        {
+            <div class="listitem clearfix"><div class="listimg"><table><tr><td><img src="/content/Base/Images/defaultimg.jpg" /></td></tr></table></div>
+                <div class="itemcontent">
+                    <div class="itemtime">2012/10/15</div>
+                    <div class="itemtitle">標題標題</div>
+                    <div class="itemdescription">內容內容內容內容</div>
+                </div>
             </div>
-        </div>
-        <div class="listitem clearfix">asdf</div>
-        <div class="listitem clearfix">asdf</div>
+        }
     </div>
 </div>
 

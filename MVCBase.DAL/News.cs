@@ -45,11 +45,14 @@ namespace MVCBase.DAL
                 .SetBoolean("st", true).List<Ba_News>();
         }
 
-        //public IList<Ba_Admin> GetModel(string adminname, string adminpwd)
-        //{
-        //    //session.Get<Ba_Admin>()
-        //    return session.CreateQuery("from Ba_Admin as ad where ad.Ad_AdminName=:an and ad.Ad_AdminPwd=:ap")
-        //        .SetString("an", adminname).SetString("ap", adminpwd).List<Ba_Admin>();
-        //}
+        public IList<Ba_News> GetNews(int pagenum)
+        {
+            int pagestep = 3;
+            return session.CreateSQLQuery("from Ba_News as ns where ns.Ns_State=:st order by ns.Ns_BuildTime desc")
+                .SetBoolean("st", true)
+                .SetFirstResult((pagenum - 1) * pagestep)
+                .SetMaxResults(pagenum * pagestep)
+                .List<Ba_News>();
+        }
     }
 }
