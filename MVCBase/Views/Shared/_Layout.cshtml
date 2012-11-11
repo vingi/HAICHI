@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/modernizr-2.5.3.js")" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="page">
+        <div id="indexline_left"></div>
+        <div id="mid">
+            <header>
+                <div id="logo"></div>
+                <div id="menubar">
+                    <a href="@Url.Action("index","home")" class="menubar1"></a>
+                    <a href="@Url.Action("about","home")" class="menubar2"></a>
+                    <a href="@Url.Action("product","home")" class="menubar3"></a>
+                    <a href="@Url.Action("key","home")" class="menubar4"></a>
+                    <a href="" class="menubar5"></a>
+                    <a href="" class="menubar6"></a>
+                    <a href="" class="menubar7"></a>
+                </div>
+            </header>
+            <div id="main">@RenderBody()</div>
+            <footer>
+                <div id="footer_left">
+                    <div>
+                        <img src="@Url.Content("~/Content/Base/Images/address.png")" alt="台北市松山區八德路二段400號4樓 客服專線: 02-2721-4010 傳真專線: 02-2721-9237" /></div>
+                    <div style="margin-top: -3px;">
+                        <img src="@Url.Content("~/Content/Base/Images/copyright.png")" alt="COPYRIGHT(C) 2012 HAI CHI. ALL RIGHTS RESERVED" /></div>
+                </div>
+                <div class="Base_fb"></div>
+            </footer>
+        </div>
+        <div id="indexline_right"></div>
+
+    </div>
+    @*    <div class="page">
+        <header>
+            <div id="title">
+                <h1>我的 MVC 应用程序</h1>
+            </div>
+            <div id="logindisplay">
+                @Html.Partial("_LogOnPartial")
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li>@Html.ActionLink("主页", "Index", "Home")</li>
+                    <li>@Html.ActionLink("关于", "About", "Home")</li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main">
+            @RenderBody()
+        </section>
+        <footer>
+        </footer>
+    </div>*@
+</body>
+</html>

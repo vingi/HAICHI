@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<hibernate-configuration  xmlns="urn:nhibernate-configuration-2.2" >
+  <session-factory>
+    <property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
+    --><!--<property name="connection.connection_string">Data Source=61.63.9.90;Initial Catalog=HDMS;uid=Dragon;pwd=Dragon~20080414;Integrated Security=False;Pooling=False
+    </property>--><!--
+    <property name="connection.connection_string_name">connectionstring</property>
+    <property name="adonet.batch_size">10</property>
+    <property name="show_sql">true</property>
+    <property name="dialect">NHibernate.Dialect.MsSql2008Dialect</property>
+    <property name="command_timeout">10</property>
+    <property name="query.substitutions">true 1, false 0, yes 'Y', no 'N'</property>
+    <mapping assembly="MVCBase.Domain"/>
+  </session-factory>
+</hibernate-configuration>-->
+
+
+<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2" >
+  <session-factory>
+    <property name="show_sql">true</property>
+    <property name="connection.release_mode">on_close</property>
+    <property name="connection.provider">NHibernate.Connection.DriverConnectionProvider</property>
+    <property name="connection.driver_class">NHibernate.Driver.SQLite20Driver</property>
+    <property name="connection.connection_string_name">SQLiteConnectionString</property>
+    <!--<property name="connection.connection_string">
+      Data Source=~/App_Data/MVCBaseDB.db;Version=3
+    </property>-->
+    <property name="dialect">NHibernate.Dialect.SQLiteDialect</property>
+    <property name="query.substitutions">true=1;false=0</property>
+    <mapping assembly="MVCBase.Domain" />
+  </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "News";
+}
+<style>
+    #indexmain {
+        overflow: hidden;
+        width: 958px;
+        height: 100%;
+        background: url(/content/Base/Images/base_bg.png) no-repeat 0 0;
+    }
+    #listwrapper {
+        width: 625px;
+        margin: 26px auto;
+    }
+    .listitem {
+        height: 180px;
+        overflow: hidden;
+    }
+    .listimg {
+        float: left;
+        width: 173px;
+        height: 172px;
+        margin: 3px 5px;
+        background: url(/content/Base/Images/listimg_bg.png) no-repeat 0 0;
+        overflow: hidden;
+        vertical-align:middle;
+        text-align: center;
+    }
+    .listimg table, .listimg tr {
+        vertical-align: middle;
+        height: 100%;
+        width: 100%;
+    }
+    .listimg td {
+        border: 0;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .listimg td img {
+        width: 134px;
+        height: 120px;
+    }
+    .itemcontent {
+        width: 420px;
+        height: 100%;
+        float: left;
+        margin-left: 20px;
+        _margin-left: 10px;
+        color: #FFF;
+        font-family: 細明體;
+    }
+    .itemtime {
+        margin-top: 20px;
+    }
+    .itemtitle, .itemdescription {
+        margin-top: 15px;
+    }
+
+</style>
+<div id="indexmain" class="clearfix">
+    <div id="listwrapper">
+        <div class="listitem clearfix"><div class="listimg"><table><tr><td><img src="/content/Base/Images/defaultimg.jpg" /></td></tr></table></div>
+            <div class="itemcontent">
+                <div class="itemtime">2012/10/15</div>
+                <div class="itemtitle">標題標題</div>
+                <div class="itemdescription">內容內容內容內容</div>
+            </div>
+        </div>
+        <div class="listitem clearfix">asdf</div>
+        <div class="listitem clearfix">asdf</div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("header").addClass("Base_menubar7");
+    });
+</script>

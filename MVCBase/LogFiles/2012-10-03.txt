@@ -1,0 +1,920 @@
+2012-10-03 00:13:49 [4920] INFO  NHibernate.Cfg.Environment (null) - NHibernate 3.3.1.4000 (3.3.1.4000)
+2012-10-03 00:13:49 [4920] INFO  NHibernate.Cfg.Environment (null) - hibernate-configuration section not found in application configuration file
+2012-10-03 00:13:49 [4920] INFO  NHibernate.Cfg.Environment (null) - Bytecode provider name : lcg
+2012-10-03 00:13:49 [4920] INFO  NHibernate.Cfg.Environment (null) - Using reflection optimizer
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=NHibernate.Driver.SQLite20Driver
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Optimize cache for minimal puts: False
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Connection release mode: on_close
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Default batch fetch size: 1
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - echoing all SQL to stdout
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Statistics: disabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Deleted entity synthetic identifier rollback: disabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Query language substitutions: {'true'='1', 'false'='0'}
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Order SQL inserts for batching: disabled
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.SettingsFactory (null) - Wrap result sets: disabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Default entity-mode: Poco
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Named query checking : enabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Impl.SessionFactoryImpl (null) - building session factory
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Session factory constructed with filter configurations : {}
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'show_sql'='true', 'connection.release_mode'='on_close', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SQLite20Driver', 'connection.connection_string_name'='SQLiteConnectionString', 'dialect'='NHibernate.Dialect.SQLiteDialect', 'query.substitutions'='true=1;false=0'}
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Connection.ConnectionProvider (null) - Closing connection
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Customer
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT CustomerId FROM Customer WHERE CustomerId = ?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT customer_.CustomerId, customer_.FirstName as FirstName0_, customer_.LastName as LastName0_ FROM Customer customer_ WHERE customer_.CustomerId=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Customer (FirstName, LastName, CustomerId) VALUES (?, ?, ?)
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Customer SET FirstName = ?, LastName = ? WHERE CustomerId = ?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Customer WHERE CustomerId = ?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Identity insert: INSERT INTO Customer (FirstName, LastName) VALUES (?, ?); select last_insert_rowid()
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT Ad_ID FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT ba_admin_.Ad_ID, ba_admin_.Ad_AdminName as Ad2_1_, ba_admin_.Ad_AdminPwd as Ad3_1_, ba_admin_.Ad_LastLoginTime as Ad4_1_, ba_admin_.Ad_BuildTime as Ad5_1_, ba_admin_.Ad_State as Ad6_1_ FROM Ba_Admin ba_admin_ WHERE ba_admin_.Ad_ID=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Ba_Admin (Ad_AdminName, Ad_AdminPwd, Ad_LastLoginTime, Ad_BuildTime, Ad_State, Ad_ID) VALUES (?, ?, ?, ?, ?, ?)
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Ba_Admin SET Ad_AdminName = ?, Ad_AdminPwd = ?, Ad_LastLoginTime = ?, Ad_BuildTime = ?, Ad_State = ? WHERE Ad_ID = ?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - initializing class SessionFactoryObjectFactory
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - registered: ac1bdd858de84598925cfef826ce0e00(unnamed)
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Impl.SessionFactoryObjectFactory (null) - no name configured
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Instantiated session factory
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named HQL queries
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named SQL queries
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=NHibernate.Driver.SQLite20Driver
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Optimize cache for minimal puts: False
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Connection release mode: on_close
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Default batch fetch size: 1
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - echoing all SQL to stdout
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Statistics: disabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Deleted entity synthetic identifier rollback: disabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Query language substitutions: {'true'='1', 'false'='0'}
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Order SQL inserts for batching: disabled
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Cfg.SettingsFactory (null) - Wrap result sets: disabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Default entity-mode: Poco
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Cfg.SettingsFactory (null) - Named query checking : enabled
+2012-10-03 00:13:50 [4920] INFO  NHibernate.Impl.SessionFactoryImpl (null) - building session factory
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Session factory constructed with filter configurations : {}
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'show_sql'='true', 'connection.release_mode'='on_close', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SQLite20Driver', 'connection.connection_string_name'='SQLiteConnectionString', 'dialect'='NHibernate.Dialect.SQLiteDialect', 'query.substitutions'='true=1;false=0'}
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 00:13:50 [4920] DEBUG NHibernate.Connection.ConnectionProvider (null) - Closing connection
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Customer
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT CustomerId FROM Customer WHERE CustomerId = ?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT customer_.CustomerId, customer_.FirstName as FirstName4_, customer_.LastName as LastName4_ FROM Customer customer_ WHERE customer_.CustomerId=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Customer (FirstName, LastName, CustomerId) VALUES (?, ?, ?)
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Customer SET FirstName = ?, LastName = ? WHERE CustomerId = ?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Customer WHERE CustomerId = ?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Identity insert: INSERT INTO Customer (FirstName, LastName) VALUES (?, ?); select last_insert_rowid()
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT Ad_ID FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT ba_admin_.Ad_ID, ba_admin_.Ad_AdminName as Ad2_5_, ba_admin_.Ad_AdminPwd as Ad3_5_, ba_admin_.Ad_LastLoginTime as Ad4_5_, ba_admin_.Ad_BuildTime as Ad5_5_, ba_admin_.Ad_State as Ad6_5_ FROM Ba_Admin ba_admin_ WHERE ba_admin_.Ad_ID=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Ba_Admin (Ad_AdminName, Ad_AdminPwd, Ad_LastLoginTime, Ad_BuildTime, Ad_State, Ad_ID) VALUES (?, ?, ?, ?, ?, ?)
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Ba_Admin SET Ad_AdminName = ?, Ad_AdminPwd = ?, Ad_LastLoginTime = ?, Ad_BuildTime = ?, Ad_State = ? WHERE Ad_ID = ?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - registered: d21066c813f542a888a1fd164f1439cd(unnamed)
+2012-10-03 00:13:51 [4920] INFO  NHibernate.Impl.SessionFactoryObjectFactory (null) - no name configured
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Instantiated session factory
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named HQL queries
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named SQL queries
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Impl.SessionImpl (null) - [session-id=82ee399e-6a54-4c77-bae7-92dd54e50ab9] opened session at timestamp: 634848200310, for session factory: [/d21066c813f542a888a1fd164f1439cd]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - loading entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - attempting to resolve: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - object not resolved in any cache: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Fetching entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Loader (null) - loading entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Opened new IDbCommand, open IDbCommands: 1
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Building an IDbCommand object for the SqlString: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Type.Int32Type (null) - binding '1' to parameter: 0
+2012-10-03 00:13:51 [4920] INFO  NHibernate.Loader.Loader (null) - SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=@p0
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.SQL (null) - SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=@p0;@p0 = 1 [Type: Int32 (0)]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - ExecuteReader took 1 ms
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Opened IDataReader, open IDataReaders: 1
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Loader (null) - processing result set
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Loader (null) - result set row: 0
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Loader (null) - result row: EntityKey[MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Loader (null) - Initializing object from DataReader: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Hydrating entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Type.StringType (null) - returning 'vingi' as column: Ad2_5_0_
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Type.StringType (null) - returning '520530' as column: Ad3_5_0_
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Type.DateTimeType (null) - returning null as column: Ad4_5_0_
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Type.DateTimeType (null) - returning null as column: Ad5_5_0_
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Type.Int32Type (null) - returning '1' as column: Ad6_5_0_
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Loader (null) - done processing result set (1 rows)
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Driver.NHybridDataReader (null) - running NHybridDataReader.Dispose()
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Closed IDataReader, open IDataReaders :0
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - DataReader was closed after 21 ms
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Closed IDbCommand, open IDbCommands: 0
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Loader (null) - total objects hydrated: 1
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Engine.TwoPhaseLoad (null) - resolving associations for [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Engine.TwoPhaseLoad (null) - done materializing entity [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Engine.StatefulPersistenceContext (null) - initializing non-lazy collections
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Loader.Loader (null) - done entity load
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.AdoNet.ConnectionManager (null) - after autocommit
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.Impl.SessionImpl (null) - transaction completion
+2012-10-03 00:13:51 [4920] DEBUG NHibernate.AdoNet.ConnectionManager (null) - transaction completed on session with on_close connection release mode; be sure to close the session to release ADO.Net resources!
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Environment (null) - NHibernate 3.3.1.4000 (3.3.1.4000)
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Environment (null) - hibernate-configuration section not found in application configuration file
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Environment (null) - Bytecode provider name : lcg
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Environment (null) - Using reflection optimizer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=NHibernate.Driver.SQLite20Driver
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Optimize cache for minimal puts: False
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Connection release mode: on_close
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Default batch fetch size: 1
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - echoing all SQL to stdout
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Statistics: disabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Deleted entity synthetic identifier rollback: disabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Query language substitutions: {'true'='1', 'false'='0'}
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Order SQL inserts for batching: disabled
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.SettingsFactory (null) - Wrap result sets: disabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Default entity-mode: Poco
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Named query checking : enabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Impl.SessionFactoryImpl (null) - building session factory
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Session factory constructed with filter configurations : {}
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'show_sql'='true', 'connection.release_mode'='on_close', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SQLite20Driver', 'connection.connection_string_name'='SQLiteConnectionString', 'dialect'='NHibernate.Dialect.SQLiteDialect', 'query.substitutions'='true=1;false=0'}
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Connection.ConnectionProvider (null) - Closing connection
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT CustomerId FROM Customer WHERE CustomerId = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT customer_.CustomerId, customer_.FirstName as FirstName0_, customer_.LastName as LastName0_ FROM Customer customer_ WHERE customer_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Customer (FirstName, LastName, CustomerId) VALUES (?, ?, ?)
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Customer SET FirstName = ?, LastName = ? WHERE CustomerId = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Customer WHERE CustomerId = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Identity insert: INSERT INTO Customer (FirstName, LastName) VALUES (?, ?); select last_insert_rowid()
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT Ad_ID FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT ba_admin_.Ad_ID, ba_admin_.Ad_AdminName as Ad2_1_, ba_admin_.Ad_AdminPwd as Ad3_1_, ba_admin_.Ad_LastLoginTime as Ad4_1_, ba_admin_.Ad_BuildTime as Ad5_1_, ba_admin_.Ad_State as Ad6_1_ FROM Ba_Admin ba_admin_ WHERE ba_admin_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Ba_Admin (Ad_AdminName, Ad_AdminPwd, Ad_LastLoginTime, Ad_BuildTime, Ad_State, Ad_ID) VALUES (?, ?, ?, ?, ?, ?)
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Ba_Admin SET Ad_AdminName = ?, Ad_AdminPwd = ?, Ad_LastLoginTime = ?, Ad_BuildTime = ?, Ad_State = ? WHERE Ad_ID = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - initializing class SessionFactoryObjectFactory
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - registered: 2678304bd02c46e2b374d1fcefffe4a2(unnamed)
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Impl.SessionFactoryObjectFactory (null) - no name configured
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Instantiated session factory
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named HQL queries
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named SQL queries
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=NHibernate.Driver.SQLite20Driver
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Optimize cache for minimal puts: False
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Connection release mode: on_close
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Default batch fetch size: 1
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - echoing all SQL to stdout
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Statistics: disabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Deleted entity synthetic identifier rollback: disabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Query language substitutions: {'true'='1', 'false'='0'}
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Order SQL inserts for batching: disabled
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Cfg.SettingsFactory (null) - Wrap result sets: disabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Default entity-mode: Poco
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Cfg.SettingsFactory (null) - Named query checking : enabled
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Impl.SessionFactoryImpl (null) - building session factory
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Session factory constructed with filter configurations : {}
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'show_sql'='true', 'connection.release_mode'='on_close', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SQLite20Driver', 'connection.connection_string_name'='SQLiteConnectionString', 'dialect'='NHibernate.Dialect.SQLiteDialect', 'query.substitutions'='true=1;false=0'}
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Connection.ConnectionProvider (null) - Closing connection
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT CustomerId FROM Customer WHERE CustomerId = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT customer_.CustomerId, customer_.FirstName as FirstName4_, customer_.LastName as LastName4_ FROM Customer customer_ WHERE customer_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Customer (FirstName, LastName, CustomerId) VALUES (?, ?, ?)
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Customer SET FirstName = ?, LastName = ? WHERE CustomerId = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Customer WHERE CustomerId = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Identity insert: INSERT INTO Customer (FirstName, LastName) VALUES (?, ?); select last_insert_rowid()
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT Ad_ID FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT ba_admin_.Ad_ID, ba_admin_.Ad_AdminName as Ad2_5_, ba_admin_.Ad_AdminPwd as Ad3_5_, ba_admin_.Ad_LastLoginTime as Ad4_5_, ba_admin_.Ad_BuildTime as Ad5_5_, ba_admin_.Ad_State as Ad6_5_ FROM Ba_Admin ba_admin_ WHERE ba_admin_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Ba_Admin (Ad_AdminName, Ad_AdminPwd, Ad_LastLoginTime, Ad_BuildTime, Ad_State, Ad_ID) VALUES (?, ?, ?, ?, ?, ?)
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Ba_Admin SET Ad_AdminName = ?, Ad_AdminPwd = ?, Ad_LastLoginTime = ?, Ad_BuildTime = ?, Ad_State = ? WHERE Ad_ID = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - registered: 59ddeb2283f24f1c81b93d7a5c01b8f1(unnamed)
+2012-10-03 00:19:10 [4432] INFO  NHibernate.Impl.SessionFactoryObjectFactory (null) - no name configured
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Instantiated session factory
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named HQL queries
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named SQL queries
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Impl.SessionImpl (null) - [session-id=44672a1c-fd36-420c-84a2-c2c4ae8fac22] opened session at timestamp: 634848203509, for session factory: [/59ddeb2283f24f1c81b93d7a5c01b8f1]
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - loading entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - attempting to resolve: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - object not resolved in any cache: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Fetching entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:10 [4432] DEBUG NHibernate.Loader.Loader (null) - loading entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Opened new IDbCommand, open IDbCommands: 1
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Building an IDbCommand object for the SqlString: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Type.Int32Type (null) - binding '1' to parameter: 0
+2012-10-03 00:19:11 [4432] INFO  NHibernate.Loader.Loader (null) - SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=@p0
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.SQL (null) - SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=@p0;@p0 = 1 [Type: Int32 (0)]
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - ExecuteReader took 2 ms
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Opened IDataReader, open IDataReaders: 1
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Loader.Loader (null) - processing result set
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Loader.Loader (null) - result set row: 0
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Loader.Loader (null) - result row: EntityKey[MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Loader.Loader (null) - Initializing object from DataReader: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Hydrating entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Type.StringType (null) - returning 'vingi' as column: Ad2_5_0_
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Type.StringType (null) - returning '520530' as column: Ad3_5_0_
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Type.DateTimeType (null) - returning null as column: Ad4_5_0_
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Type.DateTimeType (null) - returning null as column: Ad5_5_0_
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Type.Int32Type (null) - returning '1' as column: Ad6_5_0_
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Loader.Loader (null) - done processing result set (1 rows)
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Driver.NHybridDataReader (null) - running NHybridDataReader.Dispose()
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Closed IDataReader, open IDataReaders :0
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - DataReader was closed after 24 ms
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Closed IDbCommand, open IDbCommands: 0
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Loader.Loader (null) - total objects hydrated: 1
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Engine.TwoPhaseLoad (null) - resolving associations for [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Engine.TwoPhaseLoad (null) - done materializing entity [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Engine.StatefulPersistenceContext (null) - initializing non-lazy collections
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Loader.Loader (null) - done entity load
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.AdoNet.ConnectionManager (null) - after autocommit
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.Impl.SessionImpl (null) - transaction completion
+2012-10-03 00:19:11 [4432] DEBUG NHibernate.AdoNet.ConnectionManager (null) - transaction completed on session with on_close connection release mode; be sure to close the session to release ADO.Net resources!
+2012-10-03 11:17:08 [4480] INFO  NHibernate.Cfg.Environment (null) - NHibernate 3.3.1.4000 (3.3.1.4000)
+2012-10-03 11:17:08 [4480] INFO  NHibernate.Cfg.Environment (null) - hibernate-configuration section not found in application configuration file
+2012-10-03 11:17:08 [4480] INFO  NHibernate.Cfg.Environment (null) - Bytecode provider name : lcg
+2012-10-03 11:17:08 [4480] INFO  NHibernate.Cfg.Environment (null) - Using reflection optimizer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=NHibernate.Driver.SQLite20Driver
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Optimize cache for minimal puts: False
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Connection release mode: on_close
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Default batch fetch size: 1
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - echoing all SQL to stdout
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Statistics: disabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Deleted entity synthetic identifier rollback: disabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Query language substitutions: {'true'='1', 'false'='0'}
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Order SQL inserts for batching: disabled
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.SettingsFactory (null) - Wrap result sets: disabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Default entity-mode: Poco
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Named query checking : enabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Impl.SessionFactoryImpl (null) - building session factory
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Session factory constructed with filter configurations : {}
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'show_sql'='true', 'connection.release_mode'='on_close', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SQLite20Driver', 'connection.connection_string_name'='SQLiteConnectionString', 'dialect'='NHibernate.Dialect.SQLiteDialect', 'query.substitutions'='true=1;false=0'}
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Connection.ConnectionProvider (null) - Closing connection
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT CustomerId FROM Customer WHERE CustomerId = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT customer_.CustomerId, customer_.FirstName as FirstName0_, customer_.LastName as LastName0_ FROM Customer customer_ WHERE customer_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Customer (FirstName, LastName, CustomerId) VALUES (?, ?, ?)
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Customer SET FirstName = ?, LastName = ? WHERE CustomerId = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Customer WHERE CustomerId = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Identity insert: INSERT INTO Customer (FirstName, LastName) VALUES (?, ?); select last_insert_rowid()
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT Ad_ID FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT ba_admin_.Ad_ID, ba_admin_.Ad_AdminName as Ad2_1_, ba_admin_.Ad_AdminPwd as Ad3_1_, ba_admin_.Ad_LastLoginTime as Ad4_1_, ba_admin_.Ad_BuildTime as Ad5_1_, ba_admin_.Ad_State as Ad6_1_ FROM Ba_Admin ba_admin_ WHERE ba_admin_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Ba_Admin (Ad_AdminName, Ad_AdminPwd, Ad_LastLoginTime, Ad_BuildTime, Ad_State, Ad_ID) VALUES (?, ?, ?, ?, ?, ?)
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Ba_Admin SET Ad_AdminName = ?, Ad_AdminPwd = ?, Ad_LastLoginTime = ?, Ad_BuildTime = ?, Ad_State = ? WHERE Ad_ID = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - initializing class SessionFactoryObjectFactory
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - registered: 3aa60390c9a7445f805310d659dc31c7(unnamed)
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Impl.SessionFactoryObjectFactory (null) - no name configured
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Instantiated session factory
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named HQL queries
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named SQL queries
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=NHibernate.Driver.SQLite20Driver
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Optimize cache for minimal puts: False
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Connection release mode: on_close
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Default batch fetch size: 1
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - echoing all SQL to stdout
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Statistics: disabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Deleted entity synthetic identifier rollback: disabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Query language substitutions: {'true'='1', 'false'='0'}
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Order SQL inserts for batching: disabled
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Cfg.SettingsFactory (null) - Wrap result sets: disabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Default entity-mode: Poco
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Cfg.SettingsFactory (null) - Named query checking : enabled
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Impl.SessionFactoryImpl (null) - building session factory
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Session factory constructed with filter configurations : {}
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'show_sql'='true', 'connection.release_mode'='on_close', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SQLite20Driver', 'connection.connection_string_name'='SQLiteConnectionString', 'dialect'='NHibernate.Dialect.SQLiteDialect', 'query.substitutions'='true=1;false=0'}
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Connection.ConnectionProvider (null) - Closing connection
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT CustomerId FROM Customer WHERE CustomerId = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT customer_.CustomerId, customer_.FirstName as FirstName4_, customer_.LastName as LastName4_ FROM Customer customer_ WHERE customer_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Customer (FirstName, LastName, CustomerId) VALUES (?, ?, ?)
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Customer SET FirstName = ?, LastName = ? WHERE CustomerId = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Customer WHERE CustomerId = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Identity insert: INSERT INTO Customer (FirstName, LastName) VALUES (?, ?); select last_insert_rowid()
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT Ad_ID FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT ba_admin_.Ad_ID, ba_admin_.Ad_AdminName as Ad2_5_, ba_admin_.Ad_AdminPwd as Ad3_5_, ba_admin_.Ad_LastLoginTime as Ad4_5_, ba_admin_.Ad_BuildTime as Ad5_5_, ba_admin_.Ad_State as Ad6_5_ FROM Ba_Admin ba_admin_ WHERE ba_admin_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Ba_Admin (Ad_AdminName, Ad_AdminPwd, Ad_LastLoginTime, Ad_BuildTime, Ad_State, Ad_ID) VALUES (?, ?, ?, ?, ?, ?)
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Ba_Admin SET Ad_AdminName = ?, Ad_AdminPwd = ?, Ad_LastLoginTime = ?, Ad_BuildTime = ?, Ad_State = ? WHERE Ad_ID = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - registered: c91cd9c6c3164527ba45d346846701ef(unnamed)
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Impl.SessionFactoryObjectFactory (null) - no name configured
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Instantiated session factory
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named HQL queries
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named SQL queries
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionImpl (null) - [session-id=7127975c-4c50-4581-aba2-0d3a9b15ebf9] opened session at timestamp: 634848598297, for session factory: [/c91cd9c6c3164527ba45d346846701ef]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - loading entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - attempting to resolve: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - object not resolved in any cache: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Fetching entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Loader (null) - loading entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Opened new IDbCommand, open IDbCommands: 1
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Building an IDbCommand object for the SqlString: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Type.Int32Type (null) - binding '1' to parameter: 0
+2012-10-03 11:17:09 [4480] INFO  NHibernate.Loader.Loader (null) - SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=@p0
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.SQL (null) - SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=@p0;@p0 = 1 [Type: Int32 (0)]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - ExecuteReader took 1 ms
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Opened IDataReader, open IDataReaders: 1
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Loader (null) - processing result set
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Loader (null) - result set row: 0
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Loader (null) - result row: EntityKey[MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Loader (null) - Initializing object from DataReader: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Hydrating entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Type.StringType (null) - returning 'vingi' as column: Ad2_5_0_
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Type.StringType (null) - returning '520530' as column: Ad3_5_0_
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Type.DateTimeType (null) - returning null as column: Ad4_5_0_
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Type.DateTimeType (null) - returning null as column: Ad5_5_0_
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Type.Int32Type (null) - returning '1' as column: Ad6_5_0_
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Loader (null) - done processing result set (1 rows)
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Driver.NHybridDataReader (null) - running NHybridDataReader.Dispose()
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Closed IDataReader, open IDataReaders :0
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - DataReader was closed after 22 ms
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Closed IDbCommand, open IDbCommands: 0
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Loader (null) - total objects hydrated: 1
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Engine.TwoPhaseLoad (null) - resolving associations for [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Engine.TwoPhaseLoad (null) - done materializing entity [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Engine.StatefulPersistenceContext (null) - initializing non-lazy collections
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Loader.Loader (null) - done entity load
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.AdoNet.ConnectionManager (null) - after autocommit
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.Impl.SessionImpl (null) - transaction completion
+2012-10-03 11:17:09 [4480] DEBUG NHibernate.AdoNet.ConnectionManager (null) - transaction completed on session with on_close connection release mode; be sure to close the session to release ADO.Net resources!
+2012-10-03 11:27:00 [4840] INFO  NHibernate.Cfg.Environment (null) - NHibernate 3.3.1.4000 (3.3.1.4000)
+2012-10-03 11:27:00 [4840] INFO  NHibernate.Cfg.Environment (null) - hibernate-configuration section not found in application configuration file
+2012-10-03 11:27:00 [4840] INFO  NHibernate.Cfg.Environment (null) - Bytecode provider name : lcg
+2012-10-03 11:27:00 [4840] INFO  NHibernate.Cfg.Environment (null) - Using reflection optimizer
+2012-10-03 11:27:00 [4840] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2012-10-03 11:27:00 [4840] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2012-10-03 11:27:00 [4840] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2012-10-03 11:27:00 [4840] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=NHibernate.Driver.SQLite20Driver
+2012-10-03 11:27:00 [4840] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2012-10-03 11:27:00 [4840] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:00 [4840] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2012-10-03 11:27:00 [4840] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2012-10-03 11:27:00 [4840] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2012-10-03 11:27:00 [4840] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Optimize cache for minimal puts: False
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Connection release mode: on_close
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Default batch fetch size: 1
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - echoing all SQL to stdout
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Statistics: disabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Deleted entity synthetic identifier rollback: disabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Query language substitutions: {'true'='1', 'false'='0'}
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Order SQL inserts for batching: disabled
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.SettingsFactory (null) - Wrap result sets: disabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Default entity-mode: Poco
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Named query checking : enabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Impl.SessionFactoryImpl (null) - building session factory
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Session factory constructed with filter configurations : {}
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'show_sql'='true', 'connection.release_mode'='on_close', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SQLite20Driver', 'connection.connection_string_name'='SQLiteConnectionString', 'dialect'='NHibernate.Dialect.SQLiteDialect', 'query.substitutions'='true=1;false=0'}
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Connection.ConnectionProvider (null) - Closing connection
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT CustomerId FROM Customer WHERE CustomerId = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT customer_.CustomerId, customer_.FirstName as FirstName0_, customer_.LastName as LastName0_ FROM Customer customer_ WHERE customer_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Customer (FirstName, LastName, CustomerId) VALUES (?, ?, ?)
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Customer SET FirstName = ?, LastName = ? WHERE CustomerId = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Customer WHERE CustomerId = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Identity insert: INSERT INTO Customer (FirstName, LastName) VALUES (?, ?); select last_insert_rowid()
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId0_0_, customer0_.FirstName as FirstName0_0_, customer0_.LastName as LastName0_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT Ad_ID FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT ba_admin_.Ad_ID, ba_admin_.Ad_AdminName as Ad2_1_, ba_admin_.Ad_AdminPwd as Ad3_1_, ba_admin_.Ad_LastLoginTime as Ad4_1_, ba_admin_.Ad_BuildTime as Ad5_1_, ba_admin_.Ad_State as Ad6_1_ FROM Ba_Admin ba_admin_ WHERE ba_admin_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Ba_Admin (Ad_AdminName, Ad_AdminPwd, Ad_LastLoginTime, Ad_BuildTime, Ad_State, Ad_ID) VALUES (?, ?, ?, ?, ?, ?)
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Ba_Admin SET Ad_AdminName = ?, Ad_AdminPwd = ?, Ad_LastLoginTime = ?, Ad_BuildTime = ?, Ad_State = ? WHERE Ad_ID = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_1_0_, ba_admin0_.Ad_AdminName as Ad2_1_0_, ba_admin0_.Ad_AdminPwd as Ad3_1_0_, ba_admin0_.Ad_LastLoginTime as Ad4_1_0_, ba_admin0_.Ad_BuildTime as Ad5_1_0_, ba_admin0_.Ad_State as Ad6_1_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - initializing class SessionFactoryObjectFactory
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - registered: e9ee215cc7bb41709ab5c601c834ce6d(unnamed)
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Impl.SessionFactoryObjectFactory (null) - no name configured
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Instantiated session factory
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named HQL queries
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named SQL queries
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=NHibernate.Driver.SQLite20Driver
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Optimize cache for minimal puts: False
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Connection release mode: on_close
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Default batch fetch size: 1
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - echoing all SQL to stdout
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Statistics: disabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Deleted entity synthetic identifier rollback: disabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Query language substitutions: {'true'='1', 'false'='0'}
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Order SQL inserts for batching: disabled
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Cfg.SettingsFactory (null) - Wrap result sets: disabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Batcher factory: NHibernate.AdoNet.NonBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Default entity-mode: Poco
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Cfg.SettingsFactory (null) - Named query checking : enabled
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Impl.SessionFactoryImpl (null) - building session factory
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Session factory constructed with filter configurations : {}
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - instantiating session factory with properties: {'use_reflection_optimizer'='True', 'show_sql'='true', 'connection.release_mode'='on_close', 'connection.provider'='NHibernate.Connection.DriverConnectionProvider', 'connection.driver_class'='NHibernate.Driver.SQLite20Driver', 'connection.connection_string_name'='SQLiteConnectionString', 'dialect'='NHibernate.Dialect.SQLiteDialect', 'query.substitutions'='true=1;false=0'}
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Connection.ConnectionProvider (null) - Closing connection
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.AbstractEntityTuplizer (null) - No custom accessors found for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Tuple.Entity.PocoEntityTuplizer (null) - Create Instantiator using optimizer for:MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Customer
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT CustomerId FROM Customer WHERE CustomerId = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT customer_.CustomerId, customer_.FirstName as FirstName4_, customer_.LastName as LastName4_ FROM Customer customer_ WHERE customer_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Customer (FirstName, LastName, CustomerId) VALUES (?, ?, ?)
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Customer SET FirstName = ?, LastName = ? WHERE CustomerId = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Customer WHERE CustomerId = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Identity insert: INSERT INTO Customer (FirstName, LastName) VALUES (?, ?); select last_insert_rowid()
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Customer: SELECT customer0_.CustomerId as CustomerId4_0_, customer0_.FirstName as FirstName4_0_, customer0_.LastName as LastName4_0_ FROM Customer customer0_ WHERE customer0_.CustomerId=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Static SQL for entity: MVCBase.Domain.Entity.Ba_Admin
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Version select: SELECT Ad_ID FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Snapshot select: SELECT ba_admin_.Ad_ID, ba_admin_.Ad_AdminName as Ad2_5_, ba_admin_.Ad_AdminPwd as Ad3_5_, ba_admin_.Ad_LastLoginTime as Ad4_5_, ba_admin_.Ad_BuildTime as Ad5_5_, ba_admin_.Ad_State as Ad6_5_ FROM Ba_Admin ba_admin_ WHERE ba_admin_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Insert 0: INSERT INTO Ba_Admin (Ad_AdminName, Ad_AdminPwd, Ad_LastLoginTime, Ad_BuildTime, Ad_State, Ad_ID) VALUES (?, ?, ?, ?, ?, ?)
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Update 0: UPDATE Ba_Admin SET Ad_AdminName = ?, Ad_AdminPwd = ?, Ad_LastLoginTime = ?, Ad_BuildTime = ?, Ad_State = ? WHERE Ad_ID = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) -  Delete 0: DELETE FROM Ba_Admin WHERE Ad_ID = ?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+MergeCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Entity.AbstractEntityLoader (null) - Static select for action NHibernate.Engine.CascadingAction+RefreshCascadingAction on entity MVCBase.Domain.Entity.Ba_Admin: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryObjectFactory (null) - registered: 7455e3748cd040ca862ed8af8639de47(unnamed)
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Impl.SessionFactoryObjectFactory (null) - no name configured
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Instantiated session factory
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named HQL queries
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionFactoryImpl (null) - Checking 0 named SQL queries
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionImpl (null) - [session-id=201e8476-93b1-4354-8693-713ccebaca89] opened session at timestamp: 634848604216, for session factory: [/7455e3748cd040ca862ed8af8639de47]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - loading entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - attempting to resolve: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Event.Default.DefaultLoadEventListener (null) - object not resolved in any cache: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Fetching entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Loader (null) - loading entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Opened new IDbCommand, open IDbCommands: 1
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Building an IDbCommand object for the SqlString: SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=?
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Type.Int32Type (null) - binding '1' to parameter: 0
+2012-10-03 11:27:01 [4840] INFO  NHibernate.Loader.Loader (null) - SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=@p0
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.SQL (null) - SELECT ba_admin0_.Ad_ID as Ad1_5_0_, ba_admin0_.Ad_AdminName as Ad2_5_0_, ba_admin0_.Ad_AdminPwd as Ad3_5_0_, ba_admin0_.Ad_LastLoginTime as Ad4_5_0_, ba_admin0_.Ad_BuildTime as Ad5_5_0_, ba_admin0_.Ad_State as Ad6_5_0_ FROM Ba_Admin ba_admin0_ WHERE ba_admin0_.Ad_ID=@p0;@p0 = 1 [Type: Int32 (0)]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Connection.DriverConnectionProvider (null) - Obtaining IDbConnection from Driver
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - ExecuteReader took 1 ms
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Opened IDataReader, open IDataReaders: 1
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Loader (null) - processing result set
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Loader (null) - result set row: 0
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Loader (null) - result row: EntityKey[MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Loader (null) - Initializing object from DataReader: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Persister.Entity.AbstractEntityPersister (null) - Hydrating entity: [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Type.StringType (null) - returning 'vingi' as column: Ad2_5_0_
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Type.StringType (null) - returning '520530' as column: Ad3_5_0_
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Type.DateTimeType (null) - returning null as column: Ad4_5_0_
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Type.DateTimeType (null) - returning null as column: Ad5_5_0_
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Type.Int32Type (null) - returning '1' as column: Ad6_5_0_
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Loader (null) - done processing result set (1 rows)
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Driver.NHybridDataReader (null) - running NHybridDataReader.Dispose()
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Closed IDataReader, open IDataReaders :0
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - DataReader was closed after 23 ms
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.AdoNet.AbstractBatcher (null) - Closed IDbCommand, open IDbCommands: 0
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Loader (null) - total objects hydrated: 1
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Engine.TwoPhaseLoad (null) - resolving associations for [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Engine.TwoPhaseLoad (null) - done materializing entity [MVCBase.Domain.Entity.Ba_Admin#1]
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Engine.StatefulPersistenceContext (null) - initializing non-lazy collections
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Loader.Loader (null) - done entity load
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.AdoNet.ConnectionManager (null) - after autocommit
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.Impl.SessionImpl (null) - transaction completion
+2012-10-03 11:27:01 [4840] DEBUG NHibernate.AdoNet.ConnectionManager (null) - transaction completed on session with on_close connection release mode; be sure to close the session to release ADO.Net resources!

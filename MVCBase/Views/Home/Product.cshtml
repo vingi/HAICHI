@@ -1,0 +1,175 @@
+﻿@{
+    ViewBag.Title = "Product";
+}
+
+<style>
+
+    #preloader { background-image:url(/content/Base/Images/product_bg_1.png); background-image:url(/content/Base/Images/product_bg_2.png); background-image:url(/content/Base/Images/product_bg_3.png); background-image:url(/content/Base/Images/product_bg_4.png);width:0; height:0; display:inline }/*IE6 7 Images you want to preload*/
+    body:after { content:url(/content/Base/Images/product_bg_1.png) url(/content/Base/Images/product_bg_2.png) url(/content/Base/Images/product_bg_3.png) url(/content/Base/Images/product_bg_4.png); display:none }/*preload for other Browser*/
+    
+    #indexmain {
+        overflow: hidden;
+        width: 958px;
+        height: 100%;
+    }
+    #main_left {
+        height: 100%;
+        width: 478px;
+        float: left;
+        color: #FFF;
+        overflow: hidden;
+    }
+
+    .left_1 {
+        background: url(/content/Base/Images/product_bg_1.png) no-repeat 0 0;
+    }
+
+    .left_2 {
+        background: url(/content/Base/Images/product_bg_2.png) no-repeat 0 0;
+    }
+
+    .left_3 {
+        background: url(/content/Base/Images/product_bg_3.png) no-repeat 0 0;
+    }
+
+    .left_4 {
+        background: url(/content/Base/Images/product_bg_4.png) no-repeat 0 0;
+    }
+
+    #main_right {
+        height: 100%;
+        width: 480px;
+        float: left;
+        /*background: url(/content/Base/Images/product.png) no-repeat 0 -196px;*/
+        color: #FFF;
+        overflow: hidden;
+    }
+
+    #infobar {
+        margin: 46px 0 0 50px;
+        background: url(/content/Base/Images/product.png) no-repeat 0 -818px;
+        float: left;
+        width: 291px;
+        height: 25px;
+    }
+
+    #product_menu {
+        margin: 10px 0 0 5px;
+        float: left;
+        width: 409px;
+        height: 20px;
+        background-image: url(/content/Base/Images/product.png);
+        background-repeat: no-repeat;
+    }
+
+        #product_menu span {
+            display: block;
+            width: 90px;
+            height: 28px;
+            float: left;
+            cursor: pointer;
+        }
+
+    .menu2, .menu3, .menu4 {
+        margin-left: 12px;
+    }
+
+    .product-menu1 {
+        background-position: 0 0;
+    }
+
+    .product-menu2 {
+        background-position: 0 -25px;
+    }
+
+    .product-menu3 {
+        background-position: 0 -50px;
+    }
+
+    .product-menu4 {
+        background-position: 0 -75px;
+    }
+
+    #menu_info {
+        background-image: url(/content/Base/Images/product.png);
+        background-repeat: no-repeat;
+        float: left;
+        width: 150px;
+        height: 19px;
+        margin: 15px 0 0 20px;
+    }
+
+    .menut_1 {
+        background-position: 0 -100px;
+    }
+
+    .menut_2 {
+        background-position: 0 -124px;
+    }
+
+    .menut_3 {
+        background-position: 0 -148px;
+    }
+
+    .menut_4 {
+        background-position: 0 -172px;
+    }
+
+    #description {
+        font-family: 細明體;
+        float: left;
+        width: 390px;
+        margin: 12px 0 0 25px;
+        _margin-left: 12px;
+        font-size: 95%;
+        line-height: 21px;
+        letter-spacing: -1px;
+    }
+</style>
+<div id="indexmain" class="clearfix left_1">
+    <div id="main_left">
+    </div>
+    <div id="main_right">
+        <div style="height: 75px;">
+            <div id="infobar"></div>
+        </div>
+        <div id="product_menu" class="product-menu1"><span class="menu1"></span><span class="menu2"></span><span class="menu3"></span><span class="menu4"></span></div>
+        <div id="menu_info" class="menut_1"></div>
+        <div id="description">由大海中萃取，皮膚吸收效率更高。可淡化細紋、延緩肌膚老化。 結合小分子褐藻醣膠促進再進化作用，完美撫平時光痕跡。 </div>
+    </div>
+</div>
+<!--[if (IE 6)|(IE 7)]><div id="preloader"></div><![endif]-->
+<script type="text/javascript">
+    $(function () {
+        $("header").addClass("Base_menubar3");
+
+        $("#product_menu span").click(function () {
+            var thisclass = $(this).attr("class");
+            $("#indexmain").attr("class", thisclass.replace('menu', 'clearfix left_'));
+
+            $("#product_menu").attr("class", "product-" + thisclass);
+            if (thisclass == "menu2")
+                $("#infobar").hide();
+            else
+                $("#infobar").show();
+            $("#menu_info").attr("class", thisclass.replace('menu', 'menut_'));
+            var descript = "";
+            switch (thisclass) {
+                case "menu1":
+                    descript = "由大海中萃取，皮膚吸收效率更高。可淡化細紋、延緩肌膚老化。 結合小分子褐藻醣膠促進再進化作用，完美撫平時光痕跡。 ";
+                    break;
+                case "menu2":
+                    descript = "呈現3D立體交錯結構，親膚性強，擁有強大的表面包覆能力及循環通 透性，僅氣體通過，更完整吸收、避免精華液蒸發，能完整裹覆";
+                    break;
+                case "menu3":
+                    descript = "水解小麥蛋白、洋甘菊萃取、提升肌膚潤澤度、減緩外界刺激。金縷 梅萃取、蘆薈萃取可以幫助平衡油脂分泌，增加肌膚保水度並提供";
+                    break;
+                case "menu4":
+                    descript = "獨特小分子褐藻醣膠成分，被譽為”促進膠原蛋白進化之鑰”，延續 、促進膠原蛋白的生命力，維持肌膚彈性，快速淡化、撫平及消除";
+                    break;
+                default:
+            }
+            $("#description").html(descript);
+        });
+    });
+</script>
