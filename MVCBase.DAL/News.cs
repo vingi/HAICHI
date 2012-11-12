@@ -48,7 +48,7 @@ namespace MVCBase.DAL
         public IList<Ba_News> GetNews(int pagenum)
         {
             int pagestep = 3;
-            return session.CreateSQLQuery("from Ba_News as ns where ns.Ns_State=:st order by ns.Ns_BuildTime desc")
+            return session.CreateQuery("from Ba_News as ns where ns.Ns_State=:st order by ns.Ns_BuildTime desc")
                 .SetBoolean("st", true)
                 .SetFirstResult((pagenum - 1) * pagestep)
                 .SetMaxResults(pagenum * pagestep)

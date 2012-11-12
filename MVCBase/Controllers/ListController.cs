@@ -17,7 +17,7 @@ namespace MVCBase.Controllers
         public ActionResult News(int? id)
         {
             News dal = new News();
-            IList<Ba_News> model = dal.GetNews((int)id);
+            IList<Ba_News> model = dal.GetNews(id.HasValue ? (int)id : 1);
 
             return View(model);
         }
