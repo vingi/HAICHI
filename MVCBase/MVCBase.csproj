@@ -120,6 +120,8 @@
     </Compile>
     <Compile Include="Areas\SuperAdmin\Controllers\DefaultController.cs" />
     <Compile Include="Areas\SuperAdmin\Controllers\LoginController.cs" />
+    <Compile Include="Areas\SuperAdmin\Controllers\MediumListController.cs" />
+    <Compile Include="Areas\SuperAdmin\Controllers\MediumOperateController.cs" />
     <Compile Include="Areas\SuperAdmin\Controllers\NewsListController.cs" />
     <Compile Include="Areas\SuperAdmin\Controllers\NewsOperateController.cs" />
     <Compile Include="Areas\SuperAdmin\Public\SuperAdminCommon.cs" />

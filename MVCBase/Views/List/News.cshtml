@@ -62,11 +62,13 @@
     <div id="listwrapper">
         @foreach (var item in Model)
         {
-            <div class="listitem clearfix"><div class="listimg"><table><tr><td><img src="/content/Base/Images/defaultimg.jpg" /></td></tr></table></div>
+            string tempimg = MVCBase.Common.common.GetRegValue("<img .*?/>",item.Ns_Content);
+            tempimg = tempimg.Length > 0 ? tempimg : "<img src=\"/content/Base/Images/defaultimg.jpg\" />";
+            <div class="listitem clearfix"><div class="listimg"><table><tr><td>@Html.Raw(tempimg)</td></tr></table></div>
                 <div class="itemcontent">
-                    <div class="itemtime">2012/10/15</div>
-                    <div class="itemtitle">標題標題</div>
-                    <div class="itemdescription">內容內容內容內容</div>
+                    <div class="itemtime">@Convert.ToDateTime(item.Ns_BuildTime).ToString("yyyy/MM/dd")</div>
+                    <div class="itemtitle">@item.Ns_Title</div>
+                    <div class="itemdescription">@item.Ns_SubTitle</div>
                 </div>
             </div>
         }
