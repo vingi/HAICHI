@@ -11,7 +11,7 @@
     }
     #listwrapper {
         width: 625px;
-        margin: 26px auto;
+        margin: 26px auto 5px auto;
     }
     .listitem {
         height: 180px;
@@ -50,6 +50,15 @@
         color: #FFF;
         font-family: 細明體;
     }
+    .itemcontent a {
+        color: #FFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .itemtitle {
+        font-size: 110%;
+    }
     .itemtime {
         margin-top: 20px;
     }
@@ -57,6 +66,9 @@
         margin-top: 15px;
     }
 
+    .page_l{ background: url(/content/Base/Images/page.png) no-repeat 0 0; width: 22px; height: 31px; display: inline-block; cursor: pointer; } 
+    .page_p{ background: url(/content/Base/Images/page.png) no-repeat 0 -36px; width: 26px; height: 26px;display: inline-block; cursor: pointer;} 
+    .page_r{ background: url(/content/Base/Images/page.png) no-repeat 0 -67px; width: 22px; height: 31px; display: inline-block; cursor: pointer;} 
 </style>
 <div id="indexmain" class="clearfix">
     <div id="listwrapper">
@@ -64,19 +76,34 @@
         {
             string tempimg = MVCBase.Common.common.GetRegValue("<img .*?/>",item.Ns_Content);
             tempimg = tempimg.Length > 0 ? tempimg : "<img src=\"/content/Base/Images/defaultimg.jpg\" />";
-            <div class="listitem clearfix"><div class="listimg"><table><tr><td>@Html.Raw(tempimg)</td></tr></table></div>
+            <div class="listitem clearfix"><div class="listimg"><a href="@Url.Action("medium", "detail", new { id = @item.Ns_ID })"><table><tr><td>@Html.Raw(tempimg)</td></tr></table></a></div>
                 <div class="itemcontent">
                     <div class="itemtime">@Convert.ToDateTime(item.Ns_BuildTime).ToString("yyyy/MM/dd")</div>
-                    <div class="itemtitle">@item.Ns_Title</div>
+                    <div class="itemtitle"><a href="@Url.Action("medium", "detail",new {id=@item.Ns_ID})">@item.Ns_Title</a></div>
                     <div class="itemdescription">@item.Ns_SubTitle</div>
                 </div>
             </div>
         }
     </div>
+    <input type="hidden" id="currentpage" name="currentpage" value="@ViewBag.currentpage" />
+    <div id="pageinfo">@Html.Raw(ViewBag.pageinfo)</div>
 </div>
 
 <script type="text/javascript">
     $(function () {
         $("header").addClass("Base_menubar6");
     });
+    function topage(tt) {
+        var tid = $(tt).attr("id");
+        if (tid != undefined)
+            tid = tid.replace("page", "");
+        else {
+            var tclass = $(tt).attr("class");
+            if (tclass == "page_l")
+                tid = parseInt($("#currentpage").val()) - 1;
+            else if (tclass == "page_r")
+                tid = parseInt($("#currentpage").val()) + 1;
+        }
+        window.location.href = "/list/medium/" + tid;
+    }
 </script>

@@ -1,0 +1,75 @@
+﻿@model MVCBase.Domain.Entity.Ba_Medium
+@{
+    ViewBag.Title = Model.Ns_Title;
+}
+<link href="/Content/jquery.jscrollpane.css" rel="stylesheet" />
+<style>
+    .indexmain {
+        height: 100%;
+        background: url(/content/Base/Images/base_bg.png) no-repeat 0 0;
+        color: #FFF;
+        overflow: hidden;
+        line-height: 22px;
+    }
+    .detail {
+        width:839px;
+        margin: 10px auto; 
+        color: #1978bf; 
+        overflow: hidden;
+    }
+    .detail_1{ float: left;background: url(/content/Base/Images/detail.png) no-repeat top left;background-position: 0 0; width: 159px; height: 46px; text-align: center; vertical-align:middle;}
+    .detail_1 span {
+        display: block;
+        margin-top: 12px;
+    }
+    .detail_2{ float: left;background: url(/content/Base/Images/detail.png) no-repeat 0 -51px;width: 839px; height: 559px; }
+    .detail_bar {
+        margin: 40px 10px 20px 40px;
+        font-family: 細明體;
+    }
+    .detail_title {
+        float: left;
+        width: 680px;
+        font-weight: bolder;
+        font-size: 120%;
+    }
+    .detail_date {
+        float: left;
+        width: 90px;
+        font-size: 110%;
+    }
+    .detail_line {
+        height: 1px;
+        line-height: 1px;
+        margin: 18px 40px;
+        background-color: #1978bf;
+    }
+    .detail_content {
+        margin: 20px 40px;
+        height: 430px;
+        overflow-y: auto;
+    }
+</style>
+
+<div class="indexmain clearfix">
+    <div class="detail">
+    <div class="detail_1"><span>媒體報道列表</span>
+    </div>
+    <div class="detail_2">
+        <div class="detail_bar clearfix">
+            <div class="detail_title">@Model.Ns_Title</div>
+            <div class="detail_date">@Convert.ToDateTime(Model.Ns_BuildTime).ToString("yyyy/MM/dd")</div>
+        </div>
+        <div class="detail_line"></div>
+        <div class="detail_content">@Html.Raw(Model.Ns_Content)</div>
+    </div>
+        </div>
+</div>
+<script src="/scripts/jquery.mousewheel.js" type="text/javascript"></script>
+<script src="/scripts/jquery.jscrollpane.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        $("header").addClass("Base_menubar6");
+        $(".detail_content").jScrollPane();
+    });
+</script>
