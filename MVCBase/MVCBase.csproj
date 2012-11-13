@@ -452,7 +452,7 @@
     <Content Include="Areas\SuperAdmin\Scripts\xheditor\xheditor_skin\nostyle\img\wmp.gif" />
     <Content Include="Areas\SuperAdmin\Scripts\xheditor\xheditor_skin\nostyle\img\wordimg.gif" />
     <Content Include="Areas\SuperAdmin\Scripts\xheditor\xheditor_skin\nostyle\ui.css" />
-    <Content Include="Content\Base\Images\about.png" />
+    <Content Include="Content\Base\Images\about_bg.jpg" />
     <Content Include="Content\Base\Images\address.png" />
     <Content Include="Content\Base\Images\base.png" />
     <Content Include="Content\Base\Images\base_bg.png" />
@@ -463,6 +463,7 @@
     <Content Include="Content\Base\Images\indexline_left.png" />
     <Content Include="Content\Base\Images\indexline_right.png" />
     <Content Include="Content\Base\Images\indexmain.png" />
+    <Content Include="Content\Base\Images\key-2.png" />
     <Content Include="Content\Base\Images\key.png" />
     <Content Include="Content\Base\Images\lbg.png" />
     <Content Include="Content\Base\Images\listimg_bg.png" />
@@ -551,6 +552,8 @@
     <Content Include="Areas\SuperAdmin\Scripts\xheditor\demos\uploadthumb.php" />
     <Content Include="Areas\SuperAdmin\Scripts\xheditor\serverscript\php\ubb2html.php" />
     <Content Include="Areas\SuperAdmin\Public\UploadHandler.ashx" />
+    <Content Include="Areas\SuperAdmin\Views\MediumList\Index.cshtml" />
+    <Content Include="Areas\SuperAdmin\Views\MediumOperate\Index.cshtml" />
     <None Include="Properties\PublishProfiles\local.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="hibernate.cfg.xml">
@@ -603,6 +606,8 @@
     <Content Include="Views\Home\Product.cshtml" />
     <Content Include="Views\Home\Key.cshtml" />
     <Content Include="Views\List\News.cshtml" />
+    <Content Include="Views\List\Medium.cshtml" />
+    <Content Include="Views\Home\People.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\SuperAdmin\Models\" />

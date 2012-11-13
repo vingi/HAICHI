@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MVCBase.Domain.Entity;
+using MVCBase.DAL;
+using NHibernate;
 
 namespace MVCBase.Areas.SuperAdmin.Controllers
 {
@@ -13,7 +16,12 @@ namespace MVCBase.Areas.SuperAdmin.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            ViewBag.jsInit = Public.SuperAdminCommon.JSInit("MediumManage", "MediumList");
+
+            Medium dal = new Medium();
+            IList<Ba_Medium> medium = dal.Getmedium();
+
+            return View(medium);
         }
 
     }

@@ -22,5 +22,13 @@ namespace MVCBase.Controllers
             return View(model);
         }
 
+        public ActionResult Medium(int? id)
+        {
+            Medium dal = new Medium();
+            IList<Ba_Medium> model = dal.Getmedium(id.HasValue ? (int)id : 1);
+
+            return View(model);
+        }
+
     }
 }

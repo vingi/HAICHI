@@ -44,5 +44,10 @@ namespace MVCBase.Controllers
         {
             return View();
         }
+
+        public ActionResult People()
+        {
+            return View();
+        }
     }
 }
