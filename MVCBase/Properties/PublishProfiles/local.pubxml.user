@@ -14,7 +14,7 @@
       <publishTime>09/26/2012 00:30:22</publishTime>
     </File>
     <File Include="App_Data/MVCBaseDB.db">
-      <publishTime>11/14/2012 23:43:03</publishTime>
+      <publishTime>11/15/2012 12:18:18</publishTime>
     </File>
     <File Include="Areas/Admin/Views/Web.config">
       <publishTime>09/19/2012 22:54:04</publishTime>
@@ -1016,7 +1016,7 @@
       <publishTime>11/14/2012 01:52:49</publishTime>
     </File>
     <File Include="bin/MVCBase.dll">
-      <publishTime>11/14/2012 23:55:08</publishTime>
+      <publishTime>11/15/2012 19:49:52</publishTime>
     </File>
     <File Include="bin/MVCBase.Domain.dll">
       <publishTime>11/14/2012 01:52:49</publishTime>
@@ -1315,6 +1315,45 @@
     <File Include="hibernate.cfg.xml">
       <publishTime>09/24/2012 23:34:28</publishTime>
     </File>
+    <File Include="ImageUpload/2012110723496678274601.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/20121113342629592684515.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/20121114444915772235617.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/20121114521642641505917.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/20121114593647162971725.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/20121115181286563855555.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/20121115194057956633416.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/2012111525929633580117.JPG">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/2012111538414714001713.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/2012111541615746787493.JPG">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/20121115424573630423790.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/20121115461820957801933.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
+    <File Include="ImageUpload/20121115544686065027663.jpg">
+      <publishTime>11/15/2012 19:47:26</publishTime>
+    </File>
     <File Include="packages.config">
       <publishTime>09/19/2012 21:42:40</publishTime>
     </File>
@@ -1391,10 +1430,10 @@
       <publishTime>09/19/2012 21:42:31</publishTime>
     </File>
     <File Include="Views/Detail/Medium.cshtml">
-      <publishTime>11/13/2012 23:53:20</publishTime>
+      <publishTime>11/15/2012 19:49:32</publishTime>
     </File>
     <File Include="Views/Detail/News.cshtml">
-      <publishTime>11/13/2012 23:48:45</publishTime>
+      <publishTime>11/15/2012 19:49:38</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>11/14/2012 23:49:14</publishTime>
@@ -1421,7 +1460,7 @@
       <publishTime>09/19/2012 21:42:31</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>11/14/2012 23:53:23</publishTime>
+      <publishTime>11/15/2012 00:42:06</publishTime>
     </File>
     <File Include="Views/Shared/_LogOnPartial.cshtml">
       <publishTime>09/19/2012 21:42:31</publishTime>
@@ -1433,7 +1472,7 @@
       <publishTime>09/19/2012 21:42:31</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/14/2012 23:55:09</publishTime>
+      <publishTime>11/15/2012 19:49:54</publishTime>
     </File>
   </ItemGroup>
 </Project>

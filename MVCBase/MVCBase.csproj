@@ -568,6 +568,19 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="ImageUpload\2012110723496678274601.jpg" />
+    <Content Include="ImageUpload\20121113342629592684515.jpg" />
+    <Content Include="ImageUpload\20121114444915772235617.jpg" />
+    <Content Include="ImageUpload\20121114521642641505917.jpg" />
+    <Content Include="ImageUpload\20121114593647162971725.jpg" />
+    <Content Include="ImageUpload\20121115181286563855555.jpg" />
+    <Content Include="ImageUpload\20121115194057956633416.jpg" />
+    <Content Include="ImageUpload\2012111525929633580117.JPG" />
+    <Content Include="ImageUpload\2012111538414714001713.jpg" />
+    <Content Include="ImageUpload\2012111541615746787493.JPG" />
+    <Content Include="ImageUpload\20121115424573630423790.jpg" />
+    <Content Include="ImageUpload\20121115461820957801933.jpg" />
+    <Content Include="ImageUpload\20121115544686065027663.jpg" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
