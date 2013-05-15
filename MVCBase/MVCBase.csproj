@@ -538,7 +538,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="App_Data\MVCBaseDB.db" />
     <Content Include="Areas\SuperAdmin\Views\_ViewStart.cshtml" />
     <Content Include="Areas\SuperAdmin\Views\Shared\_SuperAdminLayout.cshtml" />
     <Content Include="API\StaticRequestHandler.ashx" />
@@ -635,6 +634,7 @@
     <Content Include="Views\Detail\Medium.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
     <Folder Include="Areas\SuperAdmin\Models\" />
   </ItemGroup>
   <ItemGroup>

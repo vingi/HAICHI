@@ -1016,7 +1016,7 @@
       <publishTime>11/14/2012 01:52:49</publishTime>
     </File>
     <File Include="bin/MVCBase.dll">
-      <publishTime>11/15/2012 19:49:52</publishTime>
+      <publishTime>05/15/2013 21:28:48</publishTime>
     </File>
     <File Include="bin/MVCBase.Domain.dll">
       <publishTime>11/14/2012 01:52:49</publishTime>
@@ -1430,37 +1430,37 @@
       <publishTime>09/19/2012 21:42:31</publishTime>
     </File>
     <File Include="Views/Detail/Medium.cshtml">
-      <publishTime>01/29/2013 22:51:51</publishTime>
+      <publishTime>05/15/2013 21:28:03</publishTime>
     </File>
     <File Include="Views/Detail/News.cshtml">
-      <publishTime>11/15/2012 19:49:38</publishTime>
+      <publishTime>05/15/2013 21:27:52</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>11/14/2012 23:49:14</publishTime>
+      <publishTime>05/15/2013 21:27:03</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>11/14/2012 23:45:55</publishTime>
+      <publishTime>05/15/2013 21:27:15</publishTime>
     </File>
     <File Include="Views/Home/Key.cshtml">
-      <publishTime>11/14/2012 23:49:03</publishTime>
+      <publishTime>05/15/2013 21:27:10</publishTime>
     </File>
     <File Include="Views/Home/People.cshtml">
-      <publishTime>11/14/2012 23:49:30</publishTime>
+      <publishTime>05/15/2013 21:27:07</publishTime>
     </File>
     <File Include="Views/Home/Product.cshtml">
-      <publishTime>11/14/2012 23:49:08</publishTime>
+      <publishTime>05/15/2013 21:27:31</publishTime>
     </File>
     <File Include="Views/List/Medium.cshtml">
-      <publishTime>11/14/2012 23:49:48</publishTime>
+      <publishTime>05/15/2013 21:27:22</publishTime>
     </File>
     <File Include="Views/List/News.cshtml">
-      <publishTime>11/14/2012 23:49:59</publishTime>
+      <publishTime>05/15/2013 21:27:28</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>09/19/2012 21:42:31</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>11/15/2012 00:42:06</publishTime>
+      <publishTime>05/15/2013 21:25:00</publishTime>
     </File>
     <File Include="Views/Shared/_LogOnPartial.cshtml">
       <publishTime>09/19/2012 21:42:31</publishTime>
@@ -1472,7 +1472,7 @@
       <publishTime>09/19/2012 21:42:31</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/29/2013 22:55:58</publishTime>
+      <publishTime>05/15/2013 21:28:49</publishTime>
     </File>
   </ItemGroup>
 </Project>
