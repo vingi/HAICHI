@@ -1,0 +1,153 @@
+﻿@{
+    ViewBag.Title = "海基,小分子面膜褐藻醣膠,膠原蛋白,保濕面膜,術後面膜 - 逆齡關鍵";
+}
+
+<style>
+    #indexmain {
+        overflow: hidden;
+        width: 958px;
+        height: 100%;
+        background: url(/content/Base/Images/base_bg.png) no-repeat 0 0;
+    }
+
+    #main_left {
+        float: left;
+        color: #FFF;
+        overflow: hidden;
+    }
+
+    .left_1 {
+        margin: 70px 0 0 30px;
+        background: url(/content/Base/Images/key.png) no-repeat 0 0;
+        width: 460px;
+        height: 484px;
+    }
+
+    .left_2 {
+        margin: 55px 0 0 20px;
+        background: url(/content/Base/Images/key.png) no-repeat 0 -489px;
+        width: 470px;
+        height: 359px;
+    }
+
+    #main_right {
+        height: 100%;
+        width: 430px;
+        float: left;
+        /*background: url(/content/Base/Images/product.png) no-repeat 0 -196px;*/
+        color: #FFF;
+        overflow: hidden;
+    }
+
+    #product_menu {
+        margin: 28px 0 0 25px;
+        float: left;
+        width: 316px;
+        height: 20px;
+        background-image: url(/content/Base/Images/key.png);
+        background-repeat: no-repeat;
+    }
+
+        #product_menu span {
+            display: block;
+            width: 145px;
+            height: 28px;
+            float: left;
+            cursor: pointer;
+        }
+
+    .menu2, .menu3, .menu4 {
+        margin-left: 12px;
+    }
+
+    .product-menu1 {
+        background-position: 0 -853px;
+    }
+
+    .product-menu2 {
+        background-position: 0 -878px;
+    }
+
+
+    #menu_info {
+        float: left;
+        width: 250px;
+        height: 19px;
+        margin: 15px 0 0 20px;
+        font-size: 120%;
+        font-weight: 900;
+        font-family: 細明體;
+    }
+
+    .menut_1 {
+        background-position: 0 -100px;
+    }
+
+    .menut_2 {
+        background-position: 0 -124px;
+    }
+
+    .menut_3 {
+        background-position: 0 -148px;
+    }
+
+    .menut_4 {
+        background-position: 0 -172px;
+    }
+
+    #description {
+        font-family: 細明體;
+        float: left;
+        width: 390px;
+        margin: 12px 0 0 25px;
+        _margin-left: 12px;
+        font-size: 95%;
+        line-height: 21px;
+        letter-spacing: -1px;
+    }
+    #sgs {
+        margin: 70px 0 0 5px;
+        background: url(/content/Base/Images/key.png) no-repeat 0 -903px;
+        width: 371px; height: 74px;
+    }
+</style>
+<div id="indexmain" class="clearfix">
+    <div id="main_left" class="left_1">
+    </div>
+    <div id="main_right">
+        <div id="product_menu" class="product-menu1"><span class="menu1"></span><span class="menu2"></span></div>
+        <div id="menu_info"><span class="f16 fb">▍</span>什麼是生物纖維面膜</div>
+        <div id="description">
+            <p>                <span class="f16 fb">▍</span>生物纖維主要成分為α-纖維素，使用微生物工程新生化科技，      服貼性好，具優異的保水、鎖水能力，生物相容性高、親膚。             <br />                <span class="f16 fb">▍</span>一般棉質、不識布面膜的水份很容易蒸發，且不夠服貼；生物     纖維 面膜的纖維細度是不織布的1％，可以完全貼合於肌膚，     不僅具有透氣、透水性，還能保留水分，因此在敷的時候肌膚     仍可健康呼吸。<br />                <span class="f16 fb">▍</span>精華液不易蒸發，所以能慢慢敷，延長肌膚吸收的時間，可讓     精華液更有效率地被吸收。<br />            </p>            <p>                <span class="f16 fb">▍</span>生物纖維面膜特點：  「封閉傳輸系統」(Occlusive Dressing Treatment, ODT)為新的    經皮吸收技術，是一種類導入的方式，生物纖維面膜與肌膚形   成立體封閉空間，透過「悶」的過程令皮膚升溫、毛孔張開，   當溫度升高時，毛細孔會自行打開調節溫度，有效成分即透過   毛孔直接進入肌膚，增進精華液吸收效率。            </p>            <p>                天然有機纖維親膚性佳，並讓精華液更有效注入肌膚，不論日    常保養或臨時急救，20分鐘就可立即且持續地補水、鎖水，讓    飽含水分的臉龐，由深層到表面透出健康柔嫩的活力光采。            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("header").addClass("Base_menubar4");
+
+        $("#product_menu span").click(function () {
+            var thisclass = $(this).attr("class");
+            $("#main_left").attr("class", thisclass.replace('menu', 'left_'));
+
+            $("#product_menu").attr("class", "product-" + thisclass);
+
+            var descript = "";
+            var info = "";
+            switch (thisclass) {
+                case "menu1":
+                    descript = '<p>                <span class="f16 fb">▍</span>生物纖維主要成分為α-纖維素，使用微生物工程新生化科技，      服貼性好，具優異的保水、鎖水能力，生物相容性高、親膚。             <br />                <span class="f16 fb">▍</span>一般棉質、不識布面膜的水份很容易蒸發，且不夠服貼；生物     纖維 面膜的纖維細度是不織布的1％，可以完全貼合於肌膚，     不僅具有透氣、透水性，還能保留水分，因此在敷的時候肌膚     仍可健康呼吸。<br />                <span class="f16 fb">▍</span>精華液不易蒸發，所以能慢慢敷，延長肌膚吸收的時間，可讓     精華液更有效率地被吸收。<br />            </p>            <p>                <span class="f16 fb">▍</span>生物纖維面膜特點：  「封閉傳輸系統」(Occlusive Dressing Treatment, ODT)為新的    經皮吸收技術，是一種類導入的方式，生物纖維面膜與肌膚形   成立體封閉空間，透過「悶」的過程令皮膚升溫、毛孔張開，   當溫度升高時，毛細孔會自行打開調節溫度，有效成分即透過   毛孔直接進入肌膚，增進精華液吸收效率。            </p>            <p>                天然有機纖維親膚性佳，並讓精華液更有效注入肌膚，不論日    常保養或臨時急救，20分鐘就可立即且持續地補水、鎖水，讓    飽含水分的臉龐，由深層到表面透出健康柔嫩的活力光采。            </p>';
+                    info = '<span class="f16 fb">▍</span>什麼是生物纖維面膜';
+                    break;
+                case "menu2":
+                    descript = '<p>                膠原蛋白(collagen)：是維持皮膚、肌肉彈性的主要成份，不過隨著年齡的增長，真皮層中膠原蛋白與彈力蛋白交互構成的網目結構逐漸崩解，導致皺紋生成。            </p>            <p>                膠原蛋白在美白化妝方面的主要作用如下：<br/>                1. 增加皮膚保水能力，提高保濕效果。<br/>                2. 使皮膚微血管擴張，溫度上升，抑制皮膚溫度的發散。<br/>                3. 調整皮膚表層油脂，使肌膚取得平衡。<br/>                4. 使皮膚的表面光滑柔嫩。<br/>            </p>            <p>                膠原蛋白主要是存在皮膚真皮層，不過必須先穿過角質層中細胞與細胞間的空隙，一般分子量小於500Da穿透效果較佳，而膠原蛋白的分子量超過1萬，要直接穿過狹小的皮膚空隙十分困難。            </p>            <p>                褐藻醣膠(fucoidan)堪稱膠原蛋白循環代謝之媒介，小分子量(<500 Da)直接經由皮膚滲透、吸收，增加40%人體膠原蛋白合成(見左圖)。            </p>            <div id="sgs"></div>';
+                    info = '<span class="f16 fb">▍</span>膠原蛋白vs.褐藻醣膠  ';
+                    break;
+                default:
+            }
+            $("#description").html(descript);
+            $("#menu_info").html(info);
+        });
+    });
+</script>

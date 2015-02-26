@@ -50,7 +50,7 @@ namespace MVCBase.Areas.SuperAdmin.Public
                         //file.Delete();
                         context.Response.End();
                     }
-                    catch (Exception ex) { }
+                    catch (Exception) { }
 
                 }
             }

@@ -20,6 +20,12 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,7 +55,9 @@
     <Reference Include="NHibernate">
       <HintPath>..\MVCBase.DAL\Reference\NHibernate.dll</HintPath>
     </Reference>
-    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Entity">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
@@ -75,11 +83,8 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
+      <Private>False</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -561,12 +566,16 @@
     <Content Include="Areas\SuperAdmin\Public\UploadHandler.ashx" />
     <Content Include="Areas\SuperAdmin\Views\MediumList\Index.cshtml" />
     <Content Include="Areas\SuperAdmin\Views\MediumOperate\Index.cshtml" />
+    <Content Include="App_Data\MVCBaseDB.db" />
     <None Include="Properties\PublishProfiles\local.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="hibernate.cfg.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="ImageUpload\0502-01.jpg" />
+    <Content Include="ImageUpload\0502-02.jpg" />
+    <Content Include="ImageUpload\0510-01.jpg" />
     <Content Include="ImageUpload\2012110723496678274601.jpg" />
     <Content Include="ImageUpload\20121113342629592684515.jpg" />
     <Content Include="ImageUpload\20121114444915772235617.jpg" />
@@ -580,6 +589,18 @@
     <Content Include="ImageUpload\20121115424573630423790.jpg" />
     <Content Include="ImageUpload\20121115461820957801933.jpg" />
     <Content Include="ImageUpload\20121115544686065027663.jpg" />
+    <Content Include="ImageUpload\20130108141152392426308.jpg" />
+    <Content Include="ImageUpload\2013010851485012358669.jpg" />
+    <Content Include="ImageUpload\20130328535916770751266.jpg" />
+    <Content Include="ImageUpload\brand.gif" />
+    <Content Include="ImageUpload\goods01.gif" />
+    <Content Include="ImageUpload\goods02.gif" />
+    <Content Include="ImageUpload\goods03.gif" />
+    <Content Include="ImageUpload\goods04.gif" />
+    <Content Include="ImageUpload\onsale.jpg" />
+    <Content Include="ImageUpload\top.jpg" />
+    <Content Include="ImageUpload\top02.jpg" />
+    <Content Include="ImageUpload\top_BK.gif" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -634,7 +655,6 @@
     <Content Include="Views\Detail\Medium.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Areas\SuperAdmin\Models\" />
   </ItemGroup>
   <ItemGroup>

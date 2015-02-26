@@ -138,7 +138,7 @@ namespace MVCBase.Common
                 {
                     ada.Fill(ds);
                 }
-                catch (SqlException ex)
+                catch (SqlException)
                 {
                 }
 
@@ -173,7 +173,7 @@ namespace MVCBase.Common
                 {
                     ada.Fill(ds);
                 }
-                catch (SqlException ex)
+                catch (SqlException)
                 {
                 }
 

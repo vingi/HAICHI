@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCBase", "MVCBase\MVCBase.csproj", "{C868B62C-3EEB-4004-B1B9-082E2CCC8909}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCBase.Tests", "MVCBase.Tests\MVCBase.Tests.csproj", "{E727586C-6F2A-4A5C-BD83-43DBFD1A5615}"

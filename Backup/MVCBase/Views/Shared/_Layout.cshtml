@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <meta name="keywords" content="fucoi,小分子面膜,面膜,褐藻醣膠,海基,膠原蛋白,保濕面膜,術後面膜" />
+    <meta name="description" content="海基全新的海洋美容褐藻醣膠，褐藻醣膠近年來興起一股抗老熱潮，已成為歐、美、日許多頂級保養品面膜主打成分，海基和農委會水試所、Hi-Q共同研發提升外來膠原蛋白、保濕面膜、術後面膜的關鍵之鑰，獨步全球的小分子褐藻醣膠更易於肌膚吸收，成為海基跨足醫學保養美容業的新興里程。" />
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/modernizr-2.5.3.js")" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="page">
+        <div id="indexline_left"></div>
+        <div id="mid">
+            <header>
+                <div id="logo"></div>
+                <div id="menubar">
+                    <a href="@Url.Action("index","home")" class="menubar1"></a>
+                    <a href="@Url.Action("about","home")" class="menubar2"></a>
+                    <a href="@Url.Action("product","home")" class="menubar3"></a>
+                    <a href="@Url.Action("key","home")" class="menubar4"></a>
+                    <a href="@Url.Action("people","home")" class="menubar5"></a>
+                    <a href="@Url.Action("medium","list")" class="menubar6"></a>
+                    <a href="@Url.Action("news","list")" class="menubar7"></a>
+                </div>
+            </header>
+            <div id="main">@RenderBody()</div>
+            <footer>
+                <div id="footer_left">
+                    <div>
+                        <img src="@Url.Content("~/Content/Base/Images/address.png")" alt="台北市松山區八德路二段400號4樓 客服專線: 02-2721-4010 傳真專線: 02-2721-9237" /></div>
+                    <div style="margin-top: -3px;">
+                        <img src="@Url.Content("~/Content/Base/Images/copyright.png")" alt="COPYRIGHT(C) 2012 HAI CHI. ALL RIGHTS RESERVED" /></div>
+                </div>
+                <div class="Base_fb"><a style="display: block;height: 100%;width: 100%;" href="http://www.facebook.com/fucoi520" alt="Fucoi藻美學" title="Fucoi藻美學"></a></div>
+            </footer>
+        </div>
+        <div id="indexline_right"></div>
+
+    </div>
+</body>
+</html>
