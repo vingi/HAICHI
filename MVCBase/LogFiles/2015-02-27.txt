@@ -1992,3 +1992,307 @@
 2015-02-27 01:14:42 [6464] DEBUG NHibernate.AdoNet.ConnectionManager (null) - after autocommit
 2015-02-27 01:14:42 [6464] DEBUG NHibernate.Impl.SessionImpl (null) - transaction completion
 2015-02-27 01:14:42 [6464] DEBUG NHibernate.AdoNet.ConnectionManager (null) - transaction completed on session with on_close connection release mode; be sure to close the session to release ADO.Net resources!
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Environment (null) - NHibernate 3.3.1.4000 (3.3.1.4000)
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Environment (null) - hibernate-configuration section not found in application configuration file
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Environment (null) - Bytecode provider name : lcg
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Environment (null) - Using reflection optimizer
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=NHibernate.Driver.SQLite20Driver
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_News.hbm.xml
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_News -> Ba_News
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_ID -> Ns_ID, type: Int32
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Title -> Ns_Title, type: String
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_SubTitle -> Ns_SubTitle, type: String
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Content -> Ns_Content, type: String
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_BuildTime -> Ns_BuildTime, type: DateTime
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_State -> Ns_State, type: Boolean
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Medium.hbm.xml
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Medium -> Ba_Medium
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_ID -> Ns_ID, type: Int32
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Title -> Ns_Title, type: String
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_SubTitle -> Ns_SubTitle, type: String
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Content -> Ns_Content, type: String
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_BuildTime -> Ns_BuildTime, type: DateTime
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_State -> Ns_State, type: Boolean
+2015-02-27 01:36:34 [8052] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2015-02-27 01:36:34 [8052] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2015-02-27 01:36:35 [8052] ERROR NHibernate.Util.ReflectHelper (null) - Could not load type System.Data.SQLite.SQLiteConnection, System.Data.SQLite.
+System.IO.FileNotFoundException: 未能加载文件或程序集“System.Data.SQLite”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“System.Data.SQLite”
+   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   在 System.Reflection.Assembly.Load(String assemblyString)
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError) 位置 p:\nhibernate-core\src\NHibernate\Util\ReflectHelper.cs:行号 283
+
+=== 预绑定状态信息 ===
+日志: DisplayName = System.Data.SQLite
+ (Partial)
+警告: 为程序集提供了部分绑定信息:
+警告: 程序集名称: System.Data.SQLite | 域 ID: 2
+警告: 当仅提供程序集显示名称的一部分时，将发生部分绑定。
+警告: 这可能导致联编程序加载错误的程序集。
+警告: 建议为程序集提供完全指定的文字标识，
+警告: 并由简单名称、版本、区域性和公钥标记组成。
+警告: 有关此问题的详细信息和常见解决方案，请参见白皮书 http://go.microsoft.com/fwlink/?LinkId=109270。
+日志: Appbase = file:///D:/Project/HAICHI/MVCBase/
+日志: 初始 PrivatePath = D:\Project\HAICHI\MVCBase\bin
+调用程序集: NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\Project\HAICHI\MVCBase\web.config
+日志: 使用主机配置文件: D:\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 相同的绑定已出现过，因 hr = 0x80070002 而失败。
+
+2015-02-27 01:36:35 [8052] ERROR NHibernate.Util.ReflectHelper (null) - Could not load type System.Data.SQLite.SQLiteCommand, System.Data.SQLite.
+System.IO.FileNotFoundException: 未能加载文件或程序集“System.Data.SQLite”或它的某一个依赖项。系统找不到指定的文件。
+文件名:“System.Data.SQLite”
+   在 System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   在 System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   在 System.Reflection.Assembly.Load(String assemblyString)
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError) 位置 p:\nhibernate-core\src\NHibernate\Util\ReflectHelper.cs:行号 283
+
+=== 预绑定状态信息 ===
+日志: DisplayName = System.Data.SQLite
+ (Partial)
+警告: 为程序集提供了部分绑定信息:
+警告: 程序集名称: System.Data.SQLite | 域 ID: 2
+警告: 当仅提供程序集显示名称的一部分时，将发生部分绑定。
+警告: 这可能导致联编程序加载错误的程序集。
+警告: 建议为程序集提供完全指定的文字标识，
+警告: 并由简单名称、版本、区域性和公钥标记组成。
+警告: 有关此问题的详细信息和常见解决方案，请参见白皮书 http://go.microsoft.com/fwlink/?LinkId=109270。
+日志: Appbase = file:///D:/Project/HAICHI/MVCBase/
+日志: 初始 PrivatePath = D:\Project\HAICHI\MVCBase\bin
+调用程序集: NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4。
+===
+日志: 此绑定从 default 加载上下文开始。
+日志: 正在使用应用程序配置文件: D:\Project\HAICHI\MVCBase\web.config
+日志: 使用主机配置文件: D:\Documents\IISExpress\config\aspnet.config
+日志: 使用 C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config 的计算机配置文件。
+日志: 此时没有为引用应用策略(私有、自定义、分部或基于位置的程序集绑定)。
+日志: 相同的绑定已出现过，因 hr = 0x80070002 而失败。
+
+2015-02-27 01:59:21 [7196] INFO  NHibernate.Cfg.Environment (null) - NHibernate 3.3.1.4000 (3.3.1.4000)
+2015-02-27 01:59:21 [7196] INFO  NHibernate.Cfg.Environment (null) - hibernate-configuration section not found in application configuration file
+2015-02-27 01:59:21 [7196] INFO  NHibernate.Cfg.Environment (null) - Bytecode provider name : lcg
+2015-02-27 01:59:21 [7196] INFO  NHibernate.Cfg.Environment (null) - Using reflection optimizer
+2015-02-27 01:59:21 [7196] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2015-02-27 01:59:21 [7196] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2015-02-27 01:59:21 [7196] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2015-02-27 01:59:21 [7196] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=Name.Space.MonoSqliteDriver
+2015-02-27 01:59:21 [7196] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2015-02-27 01:59:21 [7196] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:59:21 [7196] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2015-02-27 01:59:21 [7196] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2015-02-27 01:59:21 [7196] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2015-02-27 01:59:21 [7196] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2015-02-27 01:59:21 [7196] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:59:21 [7196] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2015-02-27 01:59:21 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_News.hbm.xml
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_News -> Ba_News
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_ID -> Ns_ID, type: Int32
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Title -> Ns_Title, type: String
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_SubTitle -> Ns_SubTitle, type: String
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Content -> Ns_Content, type: String
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_BuildTime -> Ns_BuildTime, type: DateTime
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_State -> Ns_State, type: Boolean
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Medium.hbm.xml
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Medium -> Ba_Medium
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_ID -> Ns_ID, type: Int32
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Title -> Ns_Title, type: String
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_SubTitle -> Ns_SubTitle, type: String
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Content -> Ns_Content, type: String
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_BuildTime -> Ns_BuildTime, type: DateTime
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_State -> Ns_State, type: Boolean
+2015-02-27 01:59:22 [7196] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2015-02-27 01:59:22 [7196] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2015-02-27 01:59:22 [7196] WARN  NHibernate.Util.ReflectHelper (null) - Could not load type Name.Space.MonoSqliteDriver. Possible cause: no assembly name specified.
+2015-02-27 01:59:22 [7196] ERROR NHibernate.Util.ReflectHelper (null) - Could not load type Name.Space.MonoSqliteDriver.
+System.TypeLoadException: Could not load type Name.Space.MonoSqliteDriver. Possible cause: no assembly name specified.
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError) 位置 p:\nhibernate-core\src\NHibernate\Util\ReflectHelper.cs:行号 279
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Environment (null) - NHibernate 3.3.1.4000 (3.3.1.4000)
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Environment (null) - hibernate-configuration section not found in application configuration file
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Environment (null) - Bytecode provider name : lcg
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Environment (null) - Using reflection optimizer
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=Name.Space.MonoSqliteDriver
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_News.hbm.xml
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_News -> Ba_News
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_ID -> Ns_ID, type: Int32
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Title -> Ns_Title, type: String
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_SubTitle -> Ns_SubTitle, type: String
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Content -> Ns_Content, type: String
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_BuildTime -> Ns_BuildTime, type: DateTime
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_State -> Ns_State, type: Boolean
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Medium.hbm.xml
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Medium -> Ba_Medium
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_ID -> Ns_ID, type: Int32
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Title -> Ns_Title, type: String
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_SubTitle -> Ns_SubTitle, type: String
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Content -> Ns_Content, type: String
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_BuildTime -> Ns_BuildTime, type: DateTime
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_State -> Ns_State, type: Boolean
+2015-02-27 02:07:29 [7932] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2015-02-27 02:07:29 [7932] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2015-02-27 02:07:29 [7932] WARN  NHibernate.Util.ReflectHelper (null) - Could not load type Name.Space.MonoSqliteDriver. Possible cause: no assembly name specified.
+2015-02-27 02:07:29 [7932] ERROR NHibernate.Util.ReflectHelper (null) - Could not load type Name.Space.MonoSqliteDriver.
+System.TypeLoadException: Could not load type Name.Space.MonoSqliteDriver. Possible cause: no assembly name specified.
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError) 位置 p:\nhibernate-core\src\NHibernate\Util\ReflectHelper.cs:行号 279
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.Configuration (null) - show_sql=true
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.Configuration (null) - connection.release_mode=on_close
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.Configuration (null) - connection.provider=NHibernate.Connection.DriverConnectionProvider
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.Configuration (null) - connection.driver_class=Name.Space.MonoSqliteDriver
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.Configuration (null) - connection.connection_string_name=SQLiteConnectionString
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.Configuration (null) - dialect=NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.Configuration (null) - query.substitutions=true=1;false=0
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.Configuration (null) - <-MVCBase.Domain
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - Searching for mapped documents in assembly: MVCBase.Domain
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Customer.hbm.xml
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Customer -> Customer
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Id -> CustomerId, type: Int32
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: FirstName -> FirstName, type: String
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: LastName -> LastName, type: String
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Admin.hbm.xml
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Admin -> Ba_Admin
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_ID -> Ad_ID, type: Int32
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminName -> Ad_AdminName, type: String
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_AdminPwd -> Ad_AdminPwd, type: String
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_LastLoginTime -> Ad_LastLoginTime, type: DateTime
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_BuildTime -> Ad_BuildTime, type: DateTime
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ad_State -> Ad_State, type: Int32
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_News.hbm.xml
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_News -> Ba_News
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_ID -> Ns_ID, type: Int32
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Title -> Ns_Title, type: String
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_SubTitle -> Ns_SubTitle, type: String
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Content -> Ns_Content, type: String
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_BuildTime -> Ns_BuildTime, type: DateTime
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_State -> Ns_State, type: Boolean
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - Mapping resource: MVCBase.Domain.Mapping.Ba_Medium.hbm.xml
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapping class: MVCBase.Domain.Entity.Ba_Medium -> Ba_Medium
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_ID -> Ns_ID, type: Int32
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Title -> Ns_Title, type: String
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_SubTitle -> Ns_SubTitle, type: String
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_Content -> Ns_Content, type: String
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_BuildTime -> Ns_BuildTime, type: DateTime
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.XmlHbmBinding.Binder (null) - Mapped property: Ns_State -> Ns_State, type: Boolean
+2015-02-27 02:07:35 [6112] DEBUG NHibernate.Cfg.Configuration (null) - properties: System.Collections.Generic.Dictionary`2[System.String,System.String]
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - checking mappings queue
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-many association mappings
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - processing one-to-one association property references
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - processing foreign key constraints
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.Configuration (null) - processing filters (second pass)
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Dialect.Dialect (null) - Using dialect: NHibernate.Dialect.SQLiteDialect
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Exceptions.SQLExceptionConverterFactory (null) - Using dialect defined converter
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Cfg.SettingsFactory (null) - Generate SQL with comments: disabled
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Connection.ConnectionProviderFactory (null) - Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+2015-02-27 02:07:35 [6112] INFO  NHibernate.Connection.ConnectionProvider (null) - Configuring ConnectionProvider
+2015-02-27 02:07:35 [6112] WARN  NHibernate.Util.ReflectHelper (null) - Could not load type Name.Space.MonoSqliteDriver. Possible cause: no assembly name specified.
+2015-02-27 02:07:35 [6112] ERROR NHibernate.Util.ReflectHelper (null) - Could not load type Name.Space.MonoSqliteDriver.
+System.TypeLoadException: Could not load type Name.Space.MonoSqliteDriver. Possible cause: no assembly name specified.
+   在 NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError) 位置 p:\nhibernate-core\src\NHibernate\Util\ReflectHelper.cs:行号 279
